@@ -23,6 +23,7 @@
 #include <cstring>
 #include <cstdlib>
 #include <mkl_cblas.h>
+#include <assert.h>
 
 static void posdef_gen( double * A, int n )
 {

@@ -39,6 +39,7 @@
     <ProjectGuid>{731C7E2E-2766-41D9-96FC-0A3548973803}</ProjectGuid>
     <RootNamespace>Game_of_life</RootNamespace>
     <Keyword>ManagedCProj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release(console)|Win32'" Label="Configuration">
@@ -65,7 +66,7 @@
     <CharacterSet>Unicode</CharacterSet>
     <CLRSupport>true</CLRSupport>
     <WholeProgramOptimization>false</WholeProgramOptimization>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v141</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release(console)|x64'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
