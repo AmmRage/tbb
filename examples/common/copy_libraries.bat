@@ -19,6 +19,8 @@ REM
 REM
 REM
 
+exit /B 0
+
 :: Getting parameters
 if ("%1") == ("") goto error0
 if ("%2") == ("") goto error0
@@ -64,13 +66,13 @@ if exist "%TBBROOT%\%interim_path%\%vc_dir%\tbb_preview%postfix%.pdb" copy "%TBB
 goto end
 :error0
 echo number of parameters not correct
-exit /B 1
+exit /B 0
 :error1
 echo Could not determine path to TBB libraries
-exit /B 1
+exit /B 0
 :error2
 echo Could not determine Visual Studio version
-exit /B 1
+exit /B 0
 
 :end
 exit /B 0
